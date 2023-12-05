@@ -1,0 +1,26 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+#ballecoffee-header{
+    display: flex;
+    width: 100%;
+    padding: 1.5rem var(--Padding-X---Grid, 10rem);
+    justify-content: space-between;
+    align-items: center;
+    background: #1F1517;
+}
+
+#ballecoffee-header h1{
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Teko;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.04rem;
+}

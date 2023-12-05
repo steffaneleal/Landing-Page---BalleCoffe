@@ -1,0 +1,16 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+#ballecoffee-novidade{
+    width: 100%;
+    height: 24.125rem;
+    display: flex;
+    width: 90rem;
+    padding: 4rem var(--Padding-X---Grid, 10rem);
+    align-items: center;
+    gap: 0.625rem;
+    background: #181012;
+}
