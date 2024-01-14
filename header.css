@@ -1,19 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Teko:wght@300;400;500;600;700&display=swap');
+
 *{
     padding: 0%;
     margin: 0%;
     text-decoration: none;
 }
 
-#ballecoffee-header{
+#header{
+    background: #1F1517;
+    width: 76rem;
+    height: auto;
+
     display: flex;
-    width: 100%;
-    padding: 1.5rem var(--Padding-X---Grid, 10rem);
     justify-content: space-between;
     align-items: center;
-    background: #1F1517;
+
+    padding: 1.5rem 10rem;
 }
 
-#ballecoffee-header h1{
+#header h1{
     color: #FFF;
     leading-trim: both;
     text-edge: cap;
@@ -23,4 +28,155 @@
     font-weight: 600;
     line-height: normal;
     letter-spacing: -0.04rem;
+}
+
+.header-navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.header-navbar-item{
+    color: rgba(255, 242, 231, 0.50);
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.header-navbar-item :hover{
+    color: #FFF2E7;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#header h2{
+    color: #FFF2E7;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}   
+
+#novidade{
+    background:#181012;
+    width: 100%;
+    height: 24.125rem;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.novidade-text h3{
+    padding-left: 4rem;
+    padding-top: 4rem;
+    color: #A45A49;
+    font-family: Epilogue;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.novidade-text h1{
+    width: 30rem;
+    height: 8.375rem;
+    padding-left: 4rem;
+    padding-top: 0.62rem;
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+.novidade-text p{
+    width: 30rem;
+    height: 3.875rem;
+    padding-left: 4rem;
+    padding-top: 1.12rem;
+
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 156%; /* 1.95rem */
+
+}
+
+
+.novidade-imagens{
+    width: 35rem;
+    gap: 1rem;
+    display: flex;
+    justify-content: stretch;
+    overflow: hidden;
+}
+
+.novidade-img1{}
+
+.brown-button{
+    background: #A45A49;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    
+}
+
+
+
+#footer{
+    background: #23181A;;
+    width: 100%;
+    height: auto;
+
+    display: grid;
+    gap: 0.62rem;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+#footer h2{
+    color: #FFF2E7;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#footer h2 span{
+    color: #FFF2E7;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;   
+}
+
+#footer h3{
+    color: rgba(255, 242, 231, 0.50);
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#footer h3 span{
+    color: rgba(255, 242, 231, 0.50);
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
 }
