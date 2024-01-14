@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+#receita{
+    background: #181012;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.receita-cap{
+    width: 28.75rem;
+    height: 14rem;
+}
+
+.receita-cap h3{
+    color: #E7A80E;
+    font-family: Epilogue;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#receita h1{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 3.6rem */   
+}
+
+#receita p{
+    height: auto;
+    padding-top: 1rem;
+
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 148%; /* 1.665rem */
+}
+
+.receitas-card-avatar{
+    width: 28.75rem;
+    height: 13.9375rem;
+    padding-top: 2rem;
+    padding-bottom: 3.41rem;
+    display: flex;
+}
+
+.receitas-card-avatar h6{
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 1.35rem */   
+}
+
+.receitas-card-avatar img{
+    width: 2.5rem;
+    height: 2.5rem;
+    padding-right: 1rem;
+}
+
+.receitas-card-avatar h5{
+    color: #756A67;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 1.05rem */   
+}
+
+.receita-detalhes{
+    width: 31rem;
+    height: auto;
+    padding: 2rem;
+
+    background: #241A1C;;
+    border-radius: 0.5rem;
+}
+
+.receita-detalhes h3{
+    color: #A45A49;
+    font-family: Epilogue;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.receita-detalhe-text{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.receita-detalhe-text h2{
+    color: #FFF2E7;
+    font-family: Montserrat;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.35rem */
+}
+
+.receita-detalhe-text h4{
+    color: #756A67;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 132%; /* 1.32rem */
+}
