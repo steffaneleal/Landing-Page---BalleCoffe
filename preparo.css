@@ -53,6 +53,7 @@
 
 .modo-preparo h2{
     margin: 1rem;
+    padding-bottom: 1.5rem;
 
     color: #C7BAB3;
     font-family: Inter;
@@ -93,6 +94,9 @@
 }
 
 .preparo-ingredientes p{
+    padding-top: 0.25rem;
+    padding-bottom: 2rem;
+
     color: #C7BAB3;
     font-family: Inter;
     font-size: 1rem;
@@ -102,10 +106,18 @@
 }
 
 .preparo-ingredientes-form-selection{
-    padding-top: 1rem;
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.preparo-ingredientes-form-selection-text{
     display: flex;
     justify-content: space-between;
+    flex-grow: 2;
+    padding-left: 0.5rem;
+}
 
+.preparo-ingredientes-form-selection h2{
     color: #C7BAB3;
     font-family: Inter;
     font-size: 1rem;
@@ -121,4 +133,8 @@
     font-style: normal;
     font-weight: 500;
     line-height: 132%; /* 1.155rem */
+}
+
+.preparo-ingredientes-form-selection input{
+    border-radius: 1rem;
 }
