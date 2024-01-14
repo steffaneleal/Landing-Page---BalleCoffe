@@ -92,6 +92,10 @@
     border-radius: 0.5rem;
 }
 
+.receita-detalhes img{
+    width: 7.45rem;
+}
+
 .receita-detalhes h3{
     color: #A45A49;
     font-family: Epilogue;
