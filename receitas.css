@@ -9,6 +9,7 @@
 /*RECEITAS*/
 #receitas{  
     background: #201414;
+    width: 100%;
     height: auto;
 }
 
@@ -56,7 +57,7 @@
 }
 
 .receitas-card{
-    width: 35rem;
+    width: 100%;
     height: 11.625rem;
     background: #241A1C;
     border-radius: 0.5rem;
